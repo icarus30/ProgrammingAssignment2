@@ -1,7 +1,7 @@
 ### My Source
 
 
-<!-- 
+```r
   makeCacheMatrix <- function(x = matrix()) {
   
       m <- NULL
@@ -34,7 +34,7 @@
     
     m
   }
--->
+```
 
 ## Result
 
