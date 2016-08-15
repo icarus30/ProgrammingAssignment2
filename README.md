@@ -42,3 +42,23 @@ http://github.com/rdpeng/ProgrammingAssignment2
 
 ## Result
 
+```r
+> source("cachematrix.R")
+> m1 <- matrix(0:3, 2, 2)
+> r1 <- makeCacheMatrix(m1)
+> cacheSolve(r1)
+     [,1] [,2]
+[1,] -1.5    1
+[2,]  0.5    0
+> cacheSolve(r1)
+getting cached data
+     [,1] [,2]
+[1,] -1.5    1
+[2,]  0.5    0
+```
+
+```abap
+DATA: BEGIN OF a OCCURS 0,
+        matnr TYPE matnr,
+      END OF a.
+```
