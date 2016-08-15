@@ -57,8 +57,3 @@ getting cached data
 [2,]  0.5    0
 ```
 
-```abap
-DATA: BEGIN OF a OCCURS 0,
-        matnr TYPE matnr,
-      END OF a.
-```
